@@ -1,0 +1,7 @@
+# FABRICATED numbers, for CLI testing only -- not a real measured rate.
+# No sigma columns here, to demonstrate that they are optional.
+t9,value
+0.100,7.0e-18
+0.500,2.4e-08
+1.000,5.1e-04
+2.000,3.2e-01

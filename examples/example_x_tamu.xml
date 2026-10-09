@@ -1,0 +1,49 @@
+<collection>
+  <properties>
+    <property name="format">X</property>
+    <property name="format_version">0.1</property>
+    <property name="lab">TAMU</property>
+  </properties>
+  <items>
+    <item>
+      <name>c12_pg_n13</name>
+      <properties>
+        <property name="reactant" tag1="1">c12</property>
+        <property name="reactant" tag1="2">p</property>
+        <property name="product" tag1="1">n13</property>
+        <property name="product" tag1="2">gamma</property>
+        <property name="q_value_mev">1.9435</property>
+        <property name="source">TAMU placeholder (schema test, not real data)</property>
+        <property name="evaluator">C. Rathi</property>
+        <property name="date">2026-09-03</property>
+        <property name="status">placeholder</property>
+        <property name="rate" tag1="t9" tag2="000">0.01</property>
+        <property name="rate" tag1="value" tag2="000">1.2e-22</property>
+        <property name="rate" tag1="sigma_low" tag2="000">1e-22</property>
+        <property name="rate" tag1="sigma_high" tag2="000">1.5e-22</property>
+        <property name="rate" tag1="t9" tag2="001">0.1</property>
+        <property name="rate" tag1="value" tag2="001">3.4e-11</property>
+        <property name="rate" tag1="sigma_low" tag2="001">3e-11</property>
+        <property name="rate" tag1="sigma_high" tag2="001">3.9e-11</property>
+        <property name="rate" tag1="t9" tag2="002">0.5</property>
+        <property name="rate" tag1="value" tag2="002">2.1e-05</property>
+        <property name="rate" tag1="sigma_low" tag2="002">1.9e-05</property>
+        <property name="rate" tag1="sigma_high" tag2="002">2.3e-05</property>
+        <property name="rate" tag1="t9" tag2="003">1.0</property>
+        <property name="rate" tag1="value" tag2="003">0.0045</property>
+        <property name="rate" tag1="sigma_low" tag2="003">0.0041</property>
+        <property name="rate" tag1="sigma_high" tag2="003">0.0049</property>
+        <property name="rate" tag1="t9" tag2="004">2.0</property>
+        <property name="rate" tag1="value" tag2="004">0.18</property>
+        <property name="rate" tag1="sigma_low" tag2="004">0.16</property>
+        <property name="rate" tag1="sigma_high" tag2="004">0.2</property>
+        <property name="rate" tag1="t9" tag2="005">5.0</property>
+        <property name="rate" tag1="value" tag2="005">3.3</property>
+        <property name="rate" tag1="sigma_low" tag2="005">3.0</property>
+        <property name="rate" tag1="sigma_high" tag2="005">3.6</property>
+        <property name="mechanism" tag1="type" tag2="000">charge_induced_nonresonant</property>
+        <property name="mechanism" tag1="l" tag2="000">1</property>
+      </properties>
+    </item>
+  </items>
+</collection>

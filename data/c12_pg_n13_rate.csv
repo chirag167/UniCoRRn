@@ -1,0 +1,8 @@
+# FABRICATED numbers, for CLI testing only -- not a real measured rate.
+t9,value,sigma_low,sigma_high
+0.010,1.2e-22,1.0e-22,1.5e-22
+0.100,3.4e-11,3.0e-11,3.9e-11
+0.500,2.1e-05,1.9e-05,2.3e-05
+1.000,4.5e-03,4.1e-03,4.9e-03
+2.000,1.8e-01,1.6e-01,2.0e-01
+5.000,3.3e+00,3.0e+00,3.6e+00
