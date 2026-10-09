@@ -6,12 +6,20 @@ The idea: put your measured rate(T9) into X once, then convert that same file in
 
 ## Setup
 
+Requires Python 3 (developed and tested with Python 3.12).
+
 ```bash
-python3 -m venv venv
-./venv/bin/pip install xmlcoll wnutils pynucastro
+git clone https://github.com/chirag167/UniCoRRn.git
+cd UniCoRRn
+python3.12 -m venv venv
+./venv/bin/python -m pip install -r requirements.txt
 ```
 
-(Already done in this repo's `venv/` — just use `./venv/bin/python` to run anything below.) `pynucastro` is only needed for `xml_to_reaclib.py --validate` — the conversion itself doesn't require it.
+All commands below run scripts with `./venv/bin/python`, so you don't need to activate the venv. There's also nothing to `pip install` for UniCoRRn itself: the scripts load the `unicorrn` package straight from `src/`.
+
+`pynucastro` is only needed for `xml_to_reaclib.py --validate`. The conversion itself doesn't require it.
+
+The `venv/` folder is not committed (it's in `.gitignore`). If you move or rename the repo folder after creating it, the venv's scripts (e.g. `venv/bin/pip`) stop working because they store the venv's original path. Delete `venv/` and repeat the last two setup commands to rebuild it.
 
 ## Pipeline
 
