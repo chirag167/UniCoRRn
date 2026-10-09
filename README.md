@@ -1,6 +1,6 @@
-# UnicoRRn
+# UniCoRRn
 
-A universal **R**eaction **R**ate converter. UnicoRRn defines X, a generic reaction-rate XML format built on [xmlcoll](https://xmlcoll.readthedocs.io), and converts a lab's instance of it (e.g. X(TAMU)) into other formats used by nuclear astrophysics codes. Currently supported: X -> [Webnucleo](https://webnucleo.readthedocs.io) reaction XML and X -> [REACLIB](https://reaclib.jinaweb.org).
+A universal **R**eaction **R**ate converter. UniCoRRn defines X, a generic reaction-rate XML format built on [xmlcoll](https://xmlcoll.readthedocs.io), and converts a lab's instance of it (e.g. X(TAMU)) into other formats used by nuclear astrophysics codes. Currently supported: X -> [Webnucleo](https://webnucleo.readthedocs.io) reaction XML and X -> [REACLIB](https://reaclib.jinaweb.org).
 
 The idea: put your measured rate(T9) into X once, then convert that same file into whichever downstream format you need (Webnucleo and Reaclib now; PRISM, FRUITY planned) without re-entering the data. The Python package is imported as `unicorrn` (lowercase, per Python convention).
 
