@@ -29,7 +29,7 @@ your_rate.csv --[csv_to_xml.py]--> X(TAMU) XML  <
                                                      --[xml_to_reaclib.py]------> REACLIB text
 ```
 
-`build_example.py` is not part of this pipeline — it's a fixed demo/regression check for `src/unicorrn/reaction.py` and doesn't take real data.
+`examples/build_example.py` is not part of this pipeline — it's a fixed demo/regression check for `src/unicorrn/reaction.py` and doesn't take real data.
 
 ## Step 1: the input CSV
 
@@ -200,4 +200,4 @@ A few behaviors worth knowing about:
 | `csv_to_xml.py` | CLI: CSV -> X(TAMU) XML |
 | `convert_to_webnucleo.py` | CLI: X(TAMU) XML -> webnucleo `reaction_data` XML |
 | `xml_to_reaclib.py` | CLI: X(TAMU) XML -> REACLIB text |
-| `build_example.py` | fixed demo/regression check, not part of the real pipeline |
+| `examples/build_example.py` | fixed demo/regression check, not part of the real pipeline |
